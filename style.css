@@ -113,27 +113,36 @@ hr{
   border-color: hsl(215, 32%, 27%);
 }
 
-.container .footer {
+.container .author {
   display: flex;
   align-items: center;
   padding-top: .25rem;
   margin-bottom: -25px;
 }
 
-.container .footer img {
+.container .author img {
   width: 2rem;
   border-radius: 50%;
   border: .0625rem solid #fff;
   margin-right: 1rem;
 }
 
-.container .footer p a {
+.container .author p a {
   color: #fff;
   font-size: 1rem;
   margin-left: .25rem;
 }
 
-.container .footer p a:hover {
+.container .author p a:hover {
   color: hsl(178, 100%, 50%);
+}
+
+.attribution { 
+  font-size: .875rem; 
+  text-align: center; 
+  color: #fff; 
+}
+  .attribution a { 
+    color: hsl(178, 100%, 50%); 
 }
 /* End styling the card component */
